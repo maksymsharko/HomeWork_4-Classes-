@@ -81,7 +81,7 @@ class City:
         if population > 1500:
             return instance
         else:
-            print("Your sity is too small")
+            print("Your сity is too small")
 
 # 9. Override a printable string representation of the City class and return:
     # The population of the city {name} is {population}
