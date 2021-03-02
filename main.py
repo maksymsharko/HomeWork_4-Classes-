@@ -30,7 +30,7 @@ class School:
         self.number_of_students = number_of_students
 
     def get_school_id(self):
-        return self.school_id
+        return self._school_id
 
 # 6*. Create a new class SchoolBus that will inherit all of the methods from
 # School and Bus and will have its own - bus_school_color
