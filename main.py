@@ -51,7 +51,7 @@ class Bear:
         self.age = age
 
     def make_sound(self):
-        print('Its a bear')
+        print('arrr')
 
 class Wolf:
     def __init__(self, name, age):
@@ -59,7 +59,7 @@ class Wolf:
         self.age = age
 
     def make_sound(self):
-        print('Its a wolf')
+        print('auuu')
 
 bear = Bear('Misha', 5)
 wolf = Wolf('Rob', 2)
