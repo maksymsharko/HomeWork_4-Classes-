@@ -44,6 +44,7 @@ class SchoolBus(School, Bus):
         School.__init__(self, school_id, number_of_students)
         Bus.__init__(self, max_speed, mileage, seating_capacity)
         self.bus_school_color = bus_school_color
+    
     def color_of_bus(self):
         print(f'Color of Bus - {self.bus_school_color}')
 
