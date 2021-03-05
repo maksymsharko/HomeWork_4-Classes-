@@ -112,6 +112,11 @@ class City:
 
     def __str__(self):
         return f'The population of the city {self.name} is {self.population}'
+  
+large_population = City('Lviv', 2500000)
+print(large_population)
+small_population = City('Komarno', 1400)
+print(small_population)
 
 # 10*. Override magic method __add__() to perform the additional action as 'multiply' (*) the value
 # which is greater than 10. And perform this add (+) of two instances.
